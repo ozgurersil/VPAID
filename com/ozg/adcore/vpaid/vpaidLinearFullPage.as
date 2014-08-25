@@ -45,10 +45,10 @@
       private var adContainerSprite:Sprite;
       
       protected var isLinearAd:Boolean = true;
+	   
+      private var clickThru:String;
 	  
-	  private var clickThru:String;
-	  
-	  private var impressionURL:String;
+      private var impressionURL:String;
       
       public function getVPAID() : Object
       {
@@ -108,9 +108,9 @@
          {
             try
             {
-               xmlData = new XML(creativeData);
-               this.creativePath = xmlData.setting;
-				this.creativeLoadTimeout = xmlData.duration;
+		                xmlData = new XML(creativeData);
+		                this.creativePath = xmlData.setting;
+			        this.creativeLoadTimeout = xmlData.duration;
 				this.clickThru = xmlData.clickThru;
 				this.impressionURL = xmlData.impressionURL;
 				initWidth = xmlData.creativeWidth;
@@ -122,7 +122,7 @@
             }
             catch(e:Error)
             {
-               onError();
+               			onError();
             }
          }
          else
@@ -164,7 +164,7 @@
       {
          ExternalInterface.addCallback("handleVpaidEvent",this.handleVpaidEvent);
          ExternalInterface.addCallback("getPlayerVolume",this.getAdPlayerVolume);
-		 ExternalInterface.call("initVpaid",creativePath,this.initWidth,this.initHeight);
+         ExternalInterface.call("initVpaid",creativePath,this.initWidth,this.initHeight);
       }
       
       private function getAdPlayerVolume() : void
@@ -172,11 +172,6 @@
          //js will come here
       }
 	  
-	  public function comingHTML() : void
-      {
-         ExternalInterface.call("console.log","i am talking with js");
-      }
-      
       private function addEventListeners() : void
       {
          addEventListener(vpaidEvent.AdUserClose,this.userClose);
