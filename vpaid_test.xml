@@ -14,7 +14,7 @@
 							<MediaFile delivery="progressive" width="1174" height="1010" type="application/x-shockwave-flash" apiFramework="VPAID">
 							
 							<![CDATA[
-								http://interaktif.ntvmsnbc.com/vPaid/DYG-VPAID.swf
+							  	your swf path
 							]]>
 							
 							</MediaFile>
@@ -23,7 +23,7 @@
 						<![CDATA[
 							<?xml version="1.0" encoding="UTF-8"?>
 							<settings>
-								<setting id="creative_path">http://interaktif.ntvmsnbc.com/vPaid/hsbc.swf</setting>
+								<setting id="creative_path">creative path</setting>
 								<duration>330</duration>
 								<clickThru>http://goo.gl/nR8dDi</clickThru>
 								<impressionURL>http://ad.doubleclick.net/ad/N6428.317837.NTVSPOR.NET/B8242387.110947317;sz=1x1;ord=[timestamp]?</impressionURL>
