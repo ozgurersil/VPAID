@@ -15,7 +15,8 @@
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <title>vpaid example</title>    
+    <title>vpaid example</title>    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
     <style type="text/css">
         #rightPanel{
@@ -31,8 +32,8 @@
         }
     </style>
     <script type="text/javascript">
-            
-            function initVpaid(creative_path){
+            $(document).ready(function(){
+                 function initVpaid(creative_path){
                 $("#rightPanel").fadeIn('slow',function(){
                     $("#rightPanel").css('display','block');
                 
@@ -77,6 +78,10 @@
             function gotoClick(src){
                 window.open(src);
             }
+                
+            });
+            
+           
 
     </script>
     <script type='text/javascript'>    var _sf_startpt = (new Date()).getTime()</script>
