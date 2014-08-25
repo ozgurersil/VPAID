@@ -1,10 +1,10 @@
 Welcome to the VPAID example
 
-VPAID EXAMPLE WITH VAST ENABLED PLAYERS
+<h2>VPAID EXAMPLE WITH VAST ENABLED PLAYERS</h2>  
 
-AdSDK included,
+<small>AdSDK included</small>
 
-USAGE
+<h3>USAGE</h3>
 
 1-) Change your paths in <b>vast_test.xml.</b>
 
