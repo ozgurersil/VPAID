@@ -23,12 +23,12 @@
 						<![CDATA[
 							<?xml version="1.0" encoding="UTF-8"?>
 							<settings>
-								<setting id="creative_path">creative path</setting>
-								<duration>330</duration>
-								<clickThru>http://goo.gl/nR8dDi</clickThru>
+								<setting id="creative_path">Creative Path URL</setting>
+								<duration>Duraion Of Creative[seconds]</duration>
+								<clickThru>Click URL</clickThru>
 								<impressionURL>Impression URL</impressionURL>
-								<creativeWidth>1100</creativeWidth>
-								<creativeHeight>650</creativeHeight>
+								<creativeWidth>Creative Width px[number]</creativeWidth>
+								<creativeHeight>Creative Height Width px[number]</creativeHeight>
 							</settings>
 						]]>
 						</AdParameters>
