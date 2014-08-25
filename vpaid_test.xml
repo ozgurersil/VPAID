@@ -26,7 +26,7 @@
 								<setting id="creative_path">creative path</setting>
 								<duration>330</duration>
 								<clickThru>http://goo.gl/nR8dDi</clickThru>
-								<impressionURL>http://ad.doubleclick.net/ad/N6428.317837.NTVSPOR.NET/B8242387.110947317;sz=1x1;ord=[timestamp]?</impressionURL>
+								<impressionURL>Impression URL</impressionURL>
 								<creativeWidth>1100</creativeWidth>
 								<creativeHeight>650</creativeHeight>
 							</settings>
