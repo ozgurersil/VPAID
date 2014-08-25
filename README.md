@@ -1,8 +1,6 @@
-Welcome to the VPAID example
-
 <h2>VPAID EXAMPLE WITH VAST ENABLED PLAYERS</h2>  
 
-<small>AdSDK included</small>
+<p style="font-size:9px">AdSDK included</p>
 
 <h3>USAGE</h3>
 
