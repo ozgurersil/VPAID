@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast_2.0.1-creativeView.xsd" version="2.0">
+	<Ad id="digitalm">
+		<InLine>
+			<AdSystem version="1.0">VPaid</AdSystem>
+			<AdTitle><![CDATA[
+				
+			]]></AdTitle>
+			<Creatives>
+				<Creative sequence="1">
+					<Linear>
+						<Duration>00:00:56</Duration>
+						<MediaFiles>
+							<MediaFile delivery="progressive" width="1174" height="1010" type="application/x-shockwave-flash" apiFramework="VPAID">
+							
+							<![CDATA[
+								http://interaktif.ntvmsnbc.com/vPaid/DYG-VPAID.swf
+							]]>
+							
+							</MediaFile>
+						</MediaFiles>
+						<AdParameters>
+						<![CDATA[
+							<?xml version="1.0" encoding="UTF-8"?>
+							<settings>
+								<setting id="creative_path">http://interaktif.ntvmsnbc.com/vPaid/hsbc.swf</setting>
+								<duration>330</duration>
+								<clickThru>http://goo.gl/nR8dDi</clickThru>
+								<impressionURL>http://ad.doubleclick.net/ad/N6428.317837.NTVSPOR.NET/B8242387.110947317;sz=1x1;ord=[timestamp]?</impressionURL>
+								<creativeWidth>1100</creativeWidth>
+								<creativeHeight>650</creativeHeight>
+							</settings>
+						]]>
+						</AdParameters>
+					</Linear>
+				</Creative>
+			</Creatives>
+		</InLine>
+	</Ad>
+</VAST>
